@@ -242,6 +242,7 @@ input {
     background: #052D56;
     color: white;
     height: 100%;
+    max-width: 19rem;
 }
 
 .date-para {
@@ -309,7 +310,7 @@ footer h2 {
 
 @media screen and (min-width: 200px) and (max-width: 550px) {
     .navbar {
-        padding: 40px 5px;
+        padding: 40px 10px;
     }
 
     .first-sect-row {
@@ -325,6 +326,10 @@ footer h2 {
         justify-content: center;
         flex-wrap: wrap;
         gap: 20px;
+    }
+
+    input, .first-sect-texts button {
+        border-radius: 5px;
     }
 
     .comp-logo img {
@@ -382,9 +387,9 @@ footer h2 {
     }
 }
 
-@media screen and (min-width: 549px) and (max-width: 900px) {
+@media screen and (min-width: 549px) and (max-width: 920px) {
     .navbar {
-        padding: 40px 5px;
+        padding: 40px 30px;
     }
 
     .second-sect-text, .third-section  {
@@ -419,11 +424,15 @@ footer h2 {
     .fourth-sect-text {
         padding: 30px 0 0 30px;
     }
+
+    footer h2 br {
+        display: none;
+    }
 }
 
-@media screen and (min-width: 899px) and (max-width: 1100px) {
+@media screen and (min-width: 919px) and (max-width: 1100px) {
     .navbar {
-        padding: 40px 5px;
+        padding: 40px 30px;
     }
 
     .comp-logo img {
